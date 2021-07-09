@@ -11,7 +11,7 @@ const NavbarNet = () => {
             width="40"
             height="40"
             className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            alt="React Bootstrap Logo"
           />
         </Navbar.Brand>
       </Navbar>
