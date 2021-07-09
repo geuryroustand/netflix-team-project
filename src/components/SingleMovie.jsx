@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal } from "react-bootstrap";
 import { useState } from "react";
+import MoviesRows from "./ShowMoviesTestEmilian";
 
 const SingleMovie = (props) => {
   const [show, setShow] = useState(false);
@@ -14,17 +15,16 @@ const SingleMovie = (props) => {
         src={props.img}
         className="thumbnail"
         alt="thumbnail"
-        
         onClick={handleShow}
       />
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          <CommentList /* COMMENTS */ />
-        </Modal.Body>
+        <Modal.Body>  */Comments/*   </Modal.Body>
       </Modal>
     </>
   );
 };
+
+export default MoviesRows;
