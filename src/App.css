@@ -85,3 +85,10 @@ label {
   padding-top: 5px !important;
   font-size: 25px;
 }
+.mystyle{
+  right: 100px;
+  top: 30px;
+}
+.mycolor{
+  color: white;
+}
